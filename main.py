@@ -69,7 +69,7 @@ most_streamed_songs_rank = spark.sql('''
           ''').toPandas()
 print(most_streamed_songs_rank.head())
 
-# graph - rank of 10 most streamed songs in 2021
+# graph - rank of 3 most streamed songs by date
 
 fig, axes = plt.subplots(figsize=(18,7))
 axes.set_ylim(200,1)
